@@ -1,5 +1,5 @@
 
-# <p align="center"> CICS CLASSROOM RESERVATION SYSTEM </p>
+# <p align="center"> ⚙️ CICS CLASSROOM RESERVATION SYSTEM 🕑</p>
 
 <p align="center">
   <a href="https://coronasafe.network">
@@ -10,7 +10,7 @@
 </p>
 
 ## 🎯 About
-This is a simple reservation system written in C++ for managing CICS room reservations. The system allows users to reserve rooms, specifying details such as date, time, professor name, and section. It also provides information about available rooms and displays reservations in an organized manner.
+This is a simple reservation system written in C++ for managing CICS room reservations. It is a command-line application.  
 
 
 ## ✔️ Features
@@ -21,27 +21,32 @@ This is a simple reservation system written in C++ for managing CICS room reserv
 - **Database Interaction:** Reservations are saved and loaded from a CSV file, allowing persistence of reservation data.
 
 
-## How to Use
+## 🤔 How to Use
 
 1. Compile the C++ program using your preferred compiler (e.g., devC++).
 2. Run the compiled executable.
 3. Follow the on-screen instructions to make reservations, display available rooms, and navigate through the system.
 
+## 📸 Screenshots
+<p align="center">
+  <img src="https://github.com/VivieneGarcia/CICS-Room-Reservation/blob/main/screenshots/enter.png" width="60%">
+ <br>
+  <img src="https://github.com/VivieneGarcia/CICS-Room-Reservation/blob/main/screenshots/menu.png"  width="60%">
+ <br>
+  <img src="https://github.com/VivieneGarcia/CICS-Room-Reservation/blob/main/screenshots/occupying.png" width="60%">
+ <br>
+  <img src="https://github.com/VivieneGarcia/CICS-Room-Reservation/blob/main/screenshots/reserving.png" width="60%">
+ <br>
+  <img src="https://github.com/VivieneGarcia/CICS-Room-Reservation/blob/main/screenshots/status.png" width="60%">
+ <br>
+  <img src="https://github.com/VivieneGarcia/CICS-Room-Reservation/blob/main/screenshots/expired.png" width="60%">
+ <br>
+</p>
 
-## Room Data
 
-Room data is initialized with default values for room names, IDs, and capacities. Additional rooms can be added or modified within the `createRooms` function in the code.
-
-## Reservation Data
+## 💾 Reservation Data
 
 Reservation data is stored in a CSV file (`reservations.csv`). The system loads existing reservations from this file on startup and appends new reservations to it.
-
-## Dependencies
-
-- Windows API for aesthetic features (colors)
-- Standard C++ libraries (iostream, sstream, string, limits, iomanip, fstream, stack, ctime)
-
->
 
 ## 👥 Members
 
